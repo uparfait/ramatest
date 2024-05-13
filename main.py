@@ -119,4 +119,4 @@ def ask_completions(advisor):
         return jsonify({"error": "Sorry, something went wrong"}), 500
 
 if __name__ == '__main__':
-    app.run(debug=True,port=8000)
+    app.run()
